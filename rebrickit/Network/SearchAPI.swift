@@ -7,20 +7,20 @@
 //
 
 import Foundation
-import Alamofire
+//import Alamofire
 
 class SearchAPI {
     
     func request() {
-        Alamofire.request(.GET, "http://rebrickable.com/api/search", parameters: ["key" : "a3E4kPrYZ6", "format" : "json", "type" : "S", "theme1" : "Technic", "min_pieces" : "1000", "min_year" : "2015"]).responseJSON { response in
-            //print(response.request)
-            //print(response.response)
-            //print(response.data)
-            //print(response.result)
-            
-            if let JSON = response.result.value {
-                print("\(JSON)")
-            }
-        }
+//        Alamofire.request(.GET, "http://rebrickable.com/api/search", parameters: ["key" : "a3E4kPrYZ6", "format" : "json", "type" : "S", "theme1" : "Technic", "min_pieces" : "1000", "min_year" : "2015"]).responseJSON { response in
+//            //print(response.request)
+//            //print(response.response)
+//            //print(response.data)
+//            //print(response.result)
+//            
+//            if let JSON = response.result.value {
+//                print("\(JSON)")
+//            }
+//        }
     }
 }

@@ -7,21 +7,21 @@
 //
 
 import Foundation
-import Alamofire
+//import Alamofire
 
 class GetSetAPI {
     
     func request() {
-        Alamofire.request(.GET, "http://rebrickable.com/api/get_set", parameters: ["key" : "a3E4kPrYZ6", "format" : "json", "set_id" : "42029-1"]).responseJSON {
-            response in
-            //print(response.request)
-            //print(response.response)
-            //print(response.data)
-            //print(response.result)
-            
-            if let JSON = response.result.value {
-                print("\(JSON)")
-            }
-        }
+//        Alamofire.request(.GET, "http://rebrickable.com/api/get_set", parameters: ["key" : "a3E4kPrYZ6", "format" : "json", "set_id" : "42029-1"]).responseJSON {
+//            response in
+//            //print(response.request)
+//            //print(response.response)
+//            //print(response.data)
+//            //print(response.result)
+//            
+//            if let JSON = response.result.value {
+//                print("\(JSON)")
+//            }
+//        }
     }
 }

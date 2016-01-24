@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E0F4C6A0B98110D3C5EBA95 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71E55D5BAC3C6BE6D055BA73 /* Pods.framework */; };
 		6A60EAE51BDDFF11002A8371 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A60EAE41BDDFF11002A8371 /* AppDelegate.swift */; };
 		6A60EAEA1BDDFF12002A8371 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A60EAE81BDDFF12002A8371 /* Main.storyboard */; };
 		6A60EAEC1BDDFF12002A8371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A60EAEB1BDDFF12002A8371 /* Assets.xcassets */; };
@@ -16,6 +15,9 @@
 		6A60EB051BDDFF12002A8371 /* rebrickitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A60EB041BDDFF12002A8371 /* rebrickitUITests.swift */; };
 		6A60EB1C1BDE1B17002A8371 /* GetSetAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A60EB1B1BDE1B17002A8371 /* GetSetAPI.swift */; settings = {ASSET_TAGS = (); }; };
 		6A79BCBD1BE9A7390037BB67 /* LegoSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A79BCBC1BE9A7390037BB67 /* LegoSet.swift */; settings = {ASSET_TAGS = (); }; };
+		6A79BCBF1BE9A8FF0037BB67 /* LegoType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A79BCBE1BE9A8FF0037BB67 /* LegoType.swift */; settings = {ASSET_TAGS = (); }; };
+		6AA0E09F1BFC2A050006EFBF /* PartListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA0E09E1BFC2A050006EFBF /* PartListViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		6AA0E0A21BFC4A520006EFBF /* legoTest.dae in Resources */ = {isa = PBXBuildFile; fileRef = 6AA0E0A11BFC4A520006EFBF /* legoTest.dae */; settings = {ASSET_TAGS = (); }; };
 		6AFF91291BDE2AEB000E147F /* SetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFF91281BDE2AEB000E147F /* SetListViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		6AFF91691BDE37CD000E147F /* SearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFF91681BDE37CD000E147F /* SearchAPI.swift */; settings = {ASSET_TAGS = (); }; };
 		6AFF917A1BDF15B7000E147F /* LegoSetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFF91791BDF15B7000E147F /* LegoSetTests.swift */; settings = {ASSET_TAGS = (); }; };
@@ -56,6 +58,9 @@
 		6A60EB061BDDFF12002A8371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A60EB1B1BDE1B17002A8371 /* GetSetAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSetAPI.swift; sourceTree = "<group>"; };
 		6A79BCBC1BE9A7390037BB67 /* LegoSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegoSet.swift; sourceTree = "<group>"; };
+		6A79BCBE1BE9A8FF0037BB67 /* LegoType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegoType.swift; sourceTree = "<group>"; };
+		6AA0E09E1BFC2A050006EFBF /* PartListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartListViewController.swift; sourceTree = "<group>"; };
+		6AA0E0A11BFC4A520006EFBF /* legoTest.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = legoTest.dae; sourceTree = "<group>"; };
 		6AFF91281BDE2AEB000E147F /* SetListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetListViewController.swift; sourceTree = "<group>"; };
 		6AFF91681BDE37CD000E147F /* SearchAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAPI.swift; sourceTree = "<group>"; };
 		6AFF91791BDF15B7000E147F /* LegoSetTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegoSetTests.swift; sourceTree = "<group>"; };
@@ -70,7 +75,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E0F4C6A0B98110D3C5EBA95 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +134,7 @@
 				6A79BCBB1BE9A7090037BB67 /* Model */,
 				6A60EB1A1BDE1AE8002A8371 /* Network */,
 				6A60EB121BDE058F002A8371 /* Module */,
+				6AA0E0A01BFC4A520006EFBF /* Resource */,
 				6A60EAE41BDDFF11002A8371 /* AppDelegate.swift */,
 				6A60EAE81BDDFF12002A8371 /* Main.storyboard */,
 				6A60EAEB1BDDFF12002A8371 /* Assets.xcassets */,
@@ -161,6 +166,7 @@
 		6A60EB121BDE058F002A8371 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				6AA0E09D1BFC29E40006EFBF /* PartList */,
 				6A60EB131BDE064A002A8371 /* SetList */,
 			);
 			path = Module;
@@ -194,8 +200,25 @@
 			isa = PBXGroup;
 			children = (
 				6A79BCBC1BE9A7390037BB67 /* LegoSet.swift */,
+				6A79BCBE1BE9A8FF0037BB67 /* LegoType.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		6AA0E09D1BFC29E40006EFBF /* PartList */ = {
+			isa = PBXGroup;
+			children = (
+				6AA0E09E1BFC2A050006EFBF /* PartListViewController.swift */,
+			);
+			path = PartList;
+			sourceTree = "<group>";
+		};
+		6AA0E0A01BFC4A520006EFBF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6AA0E0A11BFC4A520006EFBF /* legoTest.dae */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		6AFF91781BDF15AB000E147F /* Models */ = {
@@ -224,12 +247,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A60EB091BDDFF12002A8371 /* Build configuration list for PBXNativeTarget "rebrickit" */;
 			buildPhases = (
-				D9CA3A7F7209685ED8F1D788 /* Check Pods Manifest.lock */,
 				6A60EADD1BDDFF11002A8371 /* Sources */,
 				6A60EADE1BDDFF11002A8371 /* Frameworks */,
 				6A60EADF1BDDFF11002A8371 /* Resources */,
-				25D1CE608E498432A886D44D /* Embed Pods Frameworks */,
-				9B5287C8505191ADD11C0766 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -331,6 +351,7 @@
 				6A60EAEF1BDDFF12002A8371 /* LaunchScreen.storyboard in Resources */,
 				6A60EAEC1BDDFF12002A8371 /* Assets.xcassets in Resources */,
 				6A60EAEA1BDDFF12002A8371 /* Main.storyboard in Resources */,
+				6AA0E0A21BFC4A520006EFBF /* legoTest.dae in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,21 +372,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		25D1CE608E498432A886D44D /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		4CFAD9B0431A70F647E46865 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -395,21 +401,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "carthage copy-frameworks";
-		};
-		9B5287C8505191ADD11C0766 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		A29F49F4BB739ADA844E92FF /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -441,21 +432,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rebrickitTests/Pods-rebrickitTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D9CA3A7F7209685ED8F1D788 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -465,6 +441,8 @@
 			files = (
 				6A60EB1C1BDE1B17002A8371 /* GetSetAPI.swift in Sources */,
 				6AFF91691BDE37CD000E147F /* SearchAPI.swift in Sources */,
+				6AA0E09F1BFC2A050006EFBF /* PartListViewController.swift in Sources */,
+				6A79BCBF1BE9A8FF0037BB67 /* LegoType.swift in Sources */,
 				6A60EAE51BDDFF11002A8371 /* AppDelegate.swift in Sources */,
 				6AFF91291BDE2AEB000E147F /* SetListViewController.swift in Sources */,
 				6A79BCBD1BE9A7390037BB67 /* LegoSet.swift in Sources */,
@@ -612,13 +590,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = rebrickit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.doluvor.rebrickit2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "1aeffeba-ad9b-4c06-afa2-bd80eaba804f";
@@ -631,13 +607,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = rebrickit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.doluvor.rebrickit2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "1aeffeba-ad9b-4c06-afa2-bd80eaba804f";

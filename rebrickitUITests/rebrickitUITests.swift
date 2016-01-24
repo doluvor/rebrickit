@@ -9,7 +9,7 @@
 import XCTest
 
 class rebrickitUITests: XCTestCase {
-        
+
     override func setUp() {
         super.setUp()
         

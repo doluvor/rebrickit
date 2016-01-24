@@ -11,11 +11,11 @@ import UIKit
 let SetCellIdentifier = "SetCellIdentifier"
 
 class SetListViewController : UIViewController {
-    
+
     @IBOutlet weak var setTableView: UITableView!
-    
+
     dynamic var cellIdentifier = SetCellIdentifier
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         

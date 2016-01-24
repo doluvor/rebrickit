@@ -8,23 +8,19 @@
 
 import Foundation
 
-enum SetType {
-    case Set, Moc, Kit
-}
+class LegoSet {
 
-class Set {
-    
     let id : String
-    let type : SetType
+    let type : LegoSetType
     let pieces : Int
     let description : String
-    let theme : String
+    let theme : LegoTheme
     let year : Int
     let imageTiny : String
     let imageSmall : String
     let imageBig : String
-    
-    init(id : String, type : SetType, pieces : Int, description : String, theme : String, year : Int, imageTiny : String, imageSmall : String, imageBig : String) {
+
+    init(id : String, type : LegoSetType, pieces : Int, description : String, theme : LegoTheme, year : Int, imageTiny : String, imageSmall : String, imageBig : String) {
         self.id = id
         self.type = type
         self.pieces = pieces
